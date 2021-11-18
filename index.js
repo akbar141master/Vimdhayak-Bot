@@ -73,7 +73,7 @@ const truth = JSON.parse(fs.readFileSync('./database/truth.json'))
 const dare = JSON.parse(fs.readFileSync('./database/dare.json'))
 /*let prefix = _chats.match(prefixRegEx) ? prefixRegEx.exec(_chats)[0] : "";
     body =*/
-    // by xeon
+    // by Akbar
  /// image ///
 const iye = fs.readFileSync('./stik/thumb.jpeg')
 const asw1 =('https://g.top4top.io/p_21023y5wu0.jpg')
@@ -109,14 +109,14 @@ readPc = false;
 autovn = false;
 autoketik = false;
 prefixStatus = true;
-targetpc = "916909137213";
-owner = "916909137213";
-fakeyoi = "Xeon";
+targetpc = "919360596007";
+owner = "919360596007";
+fakeyoi = "AKbar";
 HunterApi = "Ikyy69",
 valkey = "rivalgans",
 dapapi = "itsmevall",
 nomorowner1 = "@916909147213";
-fake = `Xeonッ\n ${ucapanWaktu} Bro🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
+fake = `Akbarッ\n ${ucapanWaktu} Bro🐤 \n🔖Prefix :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg");
 numbernye = "0";
 waktu = "-";
@@ -277,7 +277,7 @@ await itsmevall.updatePresence(from, Presence.composing)
     // const isSelfNumber = config.NomorSELF
     // const isOwner = sender.id === isSelfNumber
     const totalchat = await itsmevall.chats.all();
-    const ownerNumber = [`916909137213@s.whatsapp.net`]
+    const ownerNumber = [`919360596007@s.whatsapp.net`]
     const m = simple.smsg(itsmevall, mek);
     const groupMetadata = isGroup ? await itsmevall.groupMetadata(from) : "";
     const groupName = isGroup ? groupMetadata.subject : "";
@@ -355,7 +355,7 @@ await itsmevall.updatePresence(from, Presence.composing)
       itsmevall.sendMessage(from, teks, text, { quoted: mek });
     };*/
 const reply = (teks) => {
-			itsmevall.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `isko gulambi chaiye XD`,body:"",previewType:"PHOTO",thumbnail:bgg,sourceUrl:`https://wa.me/916909137213?text=Hello bro`}}})
+			itsmevall.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `isko gulambi chaiye XD`,body:"",previewType:"PHOTO",thumbnail:bgg,sourceUrl:`https://wa.me/919360596007?text=Hello bro`}}})
 		}
     const sendMess = (hehe, teks) => {
       itsmevall.sendMessage(hehe, teks, text);
@@ -376,7 +376,7 @@ const reply = (teks) => {
       key: {
         fromMe: false,
         participant: "0@s.whatsapp.net",
-        remoteJid: "916909137213-1604595598@g.us",
+        remoteJid: "919360596007-1604595598@g.us",
       },
       message: {
         orderMessage: {
@@ -385,7 +385,7 @@ const reply = (teks) => {
           thumbnail: fake,
           surface: 200,
           message: iye,
-          orderTitle: "Xeon",
+          orderTitle: "Akbar",
           sellerJid: "0@s.whatsapp.net",
         },
       },
@@ -440,7 +440,7 @@ const finv = {
 	},
 	"message": {
 		"groupInviteMessage": {
-			"groupJid": "916909137213-1616169743@g.us",
+			"groupJid": "919360596007-1616169743@g.us",
 			"inviteCode": `${ucapanWaktu} ${pushname}`,
 			"groupName": `${ucapanWaktu} ${pushname}`, 
             "caption": `${ucapanWaktu} ${pushname}`, 
@@ -459,7 +459,7 @@ const fview = {
     const fvn = {
       key: {
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "916909137213-1613049930@g.us" } : {}),
+        ...(from ? { remoteJid: "919360596007-1613049930@g.us" } : {}),
       },
       message: {
         audioMessage: {
@@ -472,7 +472,7 @@ const fview = {
     const fgif = {
       key: {
         participant: `0@s.whatsapp.net`,
-        ...(from ? { remoteJid: "916909137213-1613049930@g.us" } : {}),
+        ...(from ? { remoteJid: "919360596007-1613049930@g.us" } : {}),
       },
       message: {
         videoMessage: {
@@ -488,7 +488,7 @@ const fview = {
 const fstick = {
 "key": {
 	  "participant": `0@s.whatsapp.net`,
-      "remoteJid": "916909137213-1613049930@g.us",
+      "remoteJid": "919360596007-1613049930@g.us",
       "fromMe": false,
       "id": "3B64558B07848BD81108C1D14712018E"
     },
@@ -514,7 +514,7 @@ const fstick = {
       key: { participant: "0@s.whatsapp.net", remoteJid: "0@s.whatsapp.net" },
       message: {
         groupInviteMessage: {
-          groupJid: "916909137213-1616169743@g.us",
+          groupJid: "919360596007-1616169743@g.us",
           inviteCode: "m",
           groupName: "P",
           caption: fake,
@@ -526,7 +526,7 @@ const fvid = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "916909137213-1613049930@g.us" } : {}) 
+	 { remoteJid: "919360596007-1613049930@g.us" } : {}) 
                 },
 	 message: { 
                  "videoMessage": { 
@@ -542,7 +542,7 @@ const ftex = {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "916909137213-1613049930@g.us" } : {}) 
+	 { remoteJid: "919360596007-1613049930@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -599,7 +599,7 @@ const ftex = {
           key: {
             fromMe: false,
             participant: `0@s.whatsapp.net`,
-            ...(from ? { remoteJid: "916909137213-1604595598@g.us" } : {}),
+            ...(from ? { remoteJid: "919360596007-1604595598@g.us" } : {}),
           },
           message: {
             imageMessage: {
@@ -683,7 +683,7 @@ if (!itsMe && !isOwner)return
             description: "SELF BOT",
             currencyCode: "USD",
             priceAmount1000: "2000",
-            retailerId: "Xeon",
+            retailerId: "Akbar",
             productImageCount: 1,
           },
           businessOwnerJid: `0@s.whatsapp.net`,
@@ -807,7 +807,7 @@ itsmevall.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
       itsmevall.groupAdd(from, orangnya);
     };
         const grupinv = (teks) => {
-        	grup = itsmevall.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '916909137213-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/FpE1TXXUzuk0TASzYwX8ZM', "groupName": `Xeon-Bot Inc.`, "footerText": "*_© Xeon_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
+        	grup = itsmevall.prepareMessageFromContent(from, { "groupInviteMessage": { "groupJid": '919360596007-1616169743@g.us', "inviteCode": 'https://chat.whatsapp.com/FpE1TXXUzuk0TASzYwX8ZM', "groupName": `Akbar-Bot Inc.`, "footerText": "*_© Akbar_*", "jpegThumbnail": iye, "caption": teks}}, {quoted:mek})
             itsmevall.relayWAMessage(grup)
         }
 const fakeitem = (teks) => {
@@ -816,13 +816,13 @@ const fakeitem = (teks) => {
         key:{
         	fromMe:false,
         participant:`0@s.whatsapp.net`, ...(from ? {
-remoteJid :"916909137213-1604595598@g.us" }: {})
-                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`Xeon`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
+remoteJid :"919360596007-1604595598@g.us" }: {})
+                    },message:{"orderMessage":{"orderId":"174238614569481","thumbnail":fs.readFileSync(`./stik/thumb.jpeg`),"itemCount":10,"status":"INQUIRY","surface":"CATALOG","message":`Akbar`,"token":"AR6xBKbXZn0Xwmu76Ksyd7rnxI+Rx87HfinVlW4lwXa6JA=="}}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true})}
 const katalog = (teks) => {
-             res = itsmevall.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*Xeon*", "thumbnail": iye, "surface": 'CATALOG' }}, {quoted:mek})
+             res = itsmevall.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 321, "message": teks, "footerText": "*Akbar*", "thumbnail": iye, "surface": 'CATALOG' }}, {quoted:mek})
              itsmevall.relayWAMessage(res)
         }
-function _0x2677(_0x32d997,_0xb85446){const _0x2b93a2=_0x2b93();return _0x2677=function(_0x2677fc,_0x256d87){_0x2677fc=_0x2677fc-0xab;let _0x5d80f9=_0x2b93a2[_0x2677fc];return _0x5d80f9;},_0x2677(_0x32d997,_0xb85446);}(function(_0x49cf49,_0x43fa39){const _0x6b1e4=_0x2677,_0x52c735=_0x49cf49();while(!![]){try{const _0x129adc=-parseInt(_0x6b1e4(0xab))/0x1+-parseInt(_0x6b1e4(0xaf))/0x2*(parseInt(_0x6b1e4(0xb1))/0x3)+-parseInt(_0x6b1e4(0xb0))/0x4+-parseInt(_0x6b1e4(0xad))/0x5+parseInt(_0x6b1e4(0xb5))/0x6+-parseInt(_0x6b1e4(0xb4))/0x7*(-parseInt(_0x6b1e4(0xb2))/0x8)+parseInt(_0x6b1e4(0xac))/0x9;if(_0x129adc===_0x43fa39)break;else _0x52c735['push'](_0x52c735['shift']());}catch(_0x32d4eb){_0x52c735['push'](_0x52c735['shift']());}}}(_0x2b93,0x7fba4));const fakewa=_0x473dba=>{const _0x3b878d=_0x2677;itsmevall[_0x3b878d(0xae)](from,_0x473dba,text,{'thumbnail':fake,'sendEphemeral':!![],'quoted':mek,'contextInfo':{'forwardingScore':0x1fc,'isForwarded':!![],'externalAdReply':{'title':jam+_0x3b878d(0xb3)+week+'\x20'+weton+_0x3b878d(0xb3)+date,'body':'','previewType':'PHOTO','thumbnail':iye,'sourceUrl':_0x3b878d(0xb6)}}});};function _0x2b93(){const _0x1f304a=['2010292UACuqn','837801nVErtU','112088VAjxTz','\x20-\x20','399NATgTv','5080656EWtmpw','https://wa.me/916909137213?text=Hello bhai','900103dzIdVr','6245991KHbGEy','671435MqIrux','sendMessage','2cSiZEQ'];_0x2b93=function(){return _0x1f304a;};return _0x2b93();}
+function _0x2677(_0x32d997,_0xb85446){const _0x2b93a2=_0x2b93();return _0x2677=function(_0x2677fc,_0x256d87){_0x2677fc=_0x2677fc-0xab;let _0x5d80f9=_0x2b93a2[_0x2677fc];return _0x5d80f9;},_0x2677(_0x32d997,_0xb85446);}(function(_0x49cf49,_0x43fa39){const _0x6b1e4=_0x2677,_0x52c735=_0x49cf49();while(!![]){try{const _0x129adc=-parseInt(_0x6b1e4(0xab))/0x1+-parseInt(_0x6b1e4(0xaf))/0x2*(parseInt(_0x6b1e4(0xb1))/0x3)+-parseInt(_0x6b1e4(0xb0))/0x4+-parseInt(_0x6b1e4(0xad))/0x5+parseInt(_0x6b1e4(0xb5))/0x6+-parseInt(_0x6b1e4(0xb4))/0x7*(-parseInt(_0x6b1e4(0xb2))/0x8)+parseInt(_0x6b1e4(0xac))/0x9;if(_0x129adc===_0x43fa39)break;else _0x52c735['push'](_0x52c735['shift']());}catch(_0x32d4eb){_0x52c735['push'](_0x52c735['shift']());}}}(_0x2b93,0x7fba4));const fakewa=_0x473dba=>{const _0x3b878d=_0x2677;itsmevall[_0x3b878d(0xae)](from,_0x473dba,text,{'thumbnail':fake,'sendEphemeral':!![],'quoted':mek,'contextInfo':{'forwardingScore':0x1fc,'isForwarded':!![],'externalAdReply':{'title':jam+_0x3b878d(0xb3)+week+'\x20'+weton+_0x3b878d(0xb3)+date,'body':'','previewType':'PHOTO','thumbnail':iye,'sourceUrl':_0x3b878d(0xb6)}}});};function _0x2b93(){const _0x1f304a=['2010292UACuqn','837801nVErtU','112088VAjxTz','\x20-\x20','399NATgTv','5080656EWtmpw','https://wa.me/919360596007?text=Hello bhai','900103dzIdVr','6245991KHbGEy','671435MqIrux','sendMessage','2cSiZEQ'];_0x2b93=function(){return _0x1f304a;};return _0x2b93();}
 /*const katlog = (teks) => {
              res = itsmevall.prepareMessageFromContent(from,{ "productMessage": { "product", priceAmount1000: "2000","message": teks, mimetype: "image/jpeg", "footerText": "ItsmeVall", "thumbnail": iye, "surface": 'CATALOG' }}, {quoted:mek})
              itsmevall.relayWAMessage(res)
@@ -833,7 +833,7 @@ itsmevall.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
 isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
-                "title": `Vimdhayak Bot\nX e o n. (@josephxeon) •Instagram photos and Videos`,
+                "title": `Vimdhayak Bot\nX e o n. (@josephAkbar) •Instagram photos and Videos`,
                 "body": "",
                 "previewType": "PHOTO",
                 "thumbnailUrl": "https://k.top4top.io/p_20775ulbr0.jpg",
@@ -848,12 +848,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/916909137213`,
+                "body": `wa.me/919360596007`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/916909137213`,
+                "mediaUrl": `wa.me/919360596007`,
                 "thumbnailUrl": "https://k.top4top.io/p_20779elwn0.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/916909137213`,
+                "sourceUrl": `wa.me/919360596007`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 function _0x23f0(){const _0xb751aa=['https://i.ibb.co/0B7SV7C/FB-IMG-1633258042205.jpg','5378196SaDwil','537918aztXIm','readFileSync','9EjBtBZ','104470aAeKBR','https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A','5cDZJJo','20379lPcRuW','./stik/thumb.jpeg','sendMessage','44PReDXE','Hello\x20','8pgbmZm','240929GbKExl','11TGLAJt','1420349MLJTFP','2512074oFCnxW'];_0x23f0=function(){return _0xb751aa;};return _0x23f0();}(function(_0x1e55a3,_0x56e726){const _0xdc492=_0x3b80,_0x3f050a=_0x1e55a3();while(!![]){try{const _0x615a03=-parseInt(_0xdc492(0x1ea))/0x1+-parseInt(_0xdc492(0x1f0))/0x2+parseInt(_0xdc492(0x1e4))/0x3*(parseInt(_0xdc492(0x1e7))/0x4)+-parseInt(_0xdc492(0x1f5))/0x5*(-parseInt(_0xdc492(0x1ed))/0x6)+-parseInt(_0xdc492(0x1ec))/0x7*(parseInt(_0xdc492(0x1e9))/0x8)+-parseInt(_0xdc492(0x1f2))/0x9*(parseInt(_0xdc492(0x1f3))/0xa)+-parseInt(_0xdc492(0x1eb))/0xb*(-parseInt(_0xdc492(0x1ef))/0xc);if(_0x615a03===_0x56e726)break;else _0x3f050a['push'](_0x3f050a['shift']());}catch(_0x2290c1){_0x3f050a['push'](_0x3f050a['shift']());}}}(_0x23f0,0x354e7));function _0x3b80(_0x185291,_0x399c5e){const _0x23f087=_0x23f0();return _0x3b80=function(_0x3b80a1,_0x38fc9b){_0x3b80a1=_0x3b80a1-0x1e4;let _0x322fe2=_0x23f087[_0x3b80a1];return _0x322fe2;},_0x3b80(_0x185291,_0x399c5e);}const fakeyt=_0x5773fb=>{const _0x5831e4=_0x3b80;itsmevall[_0x5831e4(0x1e6)](from,_0x5773fb,text,{'contextInfo':{'text':'hi','forwardingScore':0x3b9aca00,'isForwarded':![],'sendEphemeral':![],'externalAdReply':{'title':_0x5831e4(0x1e8)+pushname,'body':''+ucapanWaktu,'mediaType':'2','thumbnailUrl':_0x5831e4(0x1ee),'mediaUrl':_0x5831e4(0x1f4),'thumbnail':fs[_0x5831e4(0x1f1)](_0x5831e4(0x1e5)),'sourceUrl':''},'mentionedJid':[sender]},'quoted':fgif});};
@@ -1009,7 +1009,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "919360596007@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1041,7 +1041,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "919360596007@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1177,8 +1177,8 @@ case 'menu':
                contentText: `${txtt}`,
                footerText: `© Owner: ${fakeyoi}
 YouTube = https://youtube.com/channel/UCvAo9TZ0Pw9vrJ_0WYRyO3A
-Instagram = https://www.instagram.com/josephxeon13/
-Github = https://github.com/DGXeon
+Instagram = https://www.instagram.com/josephAkbar13/
+Github = https://github.com/DGAkbar
  
 *Gulambi Owner Vimdhayak*`, imageMessage: imageMsg,
                buttons: buttons,
@@ -1404,7 +1404,7 @@ prep = await itsmevall.prepareMessageFromContent(from,{buttonsMessage},{quoted: 
         ]);
 
         break;
-case 'auu': // by xeon
+case 'auu': // by Akbar
        reply('No bro')
         sendButMessage(from, `Hi bro ${pushname} 🐤`, `What do you want to answer??`, [
           {
@@ -1455,10 +1455,10 @@ reply(`${mek.quoted.caption}`)
 }
 break
 case 'iggw':
-  reply('https://www.instagram.com/josephxeon13/')
+  reply('https://www.instagram.com/josephAkbar13/')
 break
       /*case "owner":
-        sendKontak(from, owner, "Xeon", "Busy");*/
+        sendKontak(from, owner, "Akbar", "Busy");*/
 case 'owner':
            case 'creator':
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'busy!!')
@@ -1479,7 +1479,7 @@ let ini_list = []
 for (let i of nomorowner1) {
 const vname = itsmevall.contacts[i] != undefined ? itsmevall.contacts[i].vname || itsmevall.contacts[i].notify : undefined
 ini_list.push({
-"displayName": 'Xeon',
+"displayName": 'Akbar',
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${itsmevall.user.name}`}\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
@@ -1525,7 +1525,7 @@ break
         }
         mentions(teksnyee, cemde, true);
         break;
-        // banchat fixed by xeon
+        // banchat fixed by Akbar
 case "banchat":
 if (!isGroup) return reply(mess.only.group)
 if (!itsMe && !isOwner && !isGroupAdmins)return mentions(`*This Order is Special @${ownerN} !*`, [`${ownerN}@s.whatsapp.net`], true)
@@ -1849,7 +1849,7 @@ break;
         break;
 
       //------------------< Group Features >-------------------
-      case "listonline": //code by xeon
+      case "listonline": //code by Akbar
         let id = args && /\d+\-\d+@g.us/.test(args[0]) ? args[0] : m.chat;
         try {
           let online = [
@@ -1870,7 +1870,7 @@ break;
           m.reply("");
         }
         break;
-      case "sider": //code by xeon
+      case "sider": //code by Akbar
         if (!m.quoted) throw `Reply to bot messages!`;
         let members = m.quoted.chat.endsWith("g.us")
           ? (await itsmevall.groupMetadata(m.quoted.chat)).participants.length - 1
@@ -2100,7 +2100,7 @@ if (Number(oi2) >= 50) return reply('Most!')
         reply(`*SUCCES OPEN GROUP*`);
         itsmevall.groupSettingChange(from, GroupSettingChange.messageSend, false);
         break;
-      case "reminder": // by xeon
+      case "reminder": // by Akbar
         if (!q)
           return reply(
             `EXAMPLE OF USE:\n${prefix}reminder text/2s\n\nNOTE: \n*s* - seconds\n*m* - minutes\n*h* - hours\n*d* - days`
@@ -2662,7 +2662,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": "https://github.com/DGXeon"
+          "url": "https://github.com/DGAkbar"
         },
         "index": 0
       }
@@ -2723,7 +2723,7 @@ break
           },
         ]);
         break;
-case "intake": // by xeon
+case "intake": // by Akbar
         sendButMessage(from, `Hi bro ${pushname} 🐤`, `Please select your intake sis✨`, [
           {
             buttonId: `${prefix}+91`,
@@ -2748,7 +2748,7 @@ case "intake": // by xeon
           },
         ]);
         break;
-case "intake2": // by xeon
+case "intake2": // by Akbar
         sendButMessage(from, `Hi bro ${pushname} 🐤`, `Please select the intake V.2 sis✨`, [
           {
             buttonId: `${prefix}santuy`,
@@ -2773,7 +2773,7 @@ case "intake2": // by xeon
           },
         ]);
         break;
-case "asupan3": // by xeon
+case "asupan3": // by Akbar
         sendButMessage(from, `Hi bro ${pushname} 🐤`, `Please select the intake V.3 sis✨`, [
           {
             buttonId: `${prefix}rikagusriani`,
@@ -3038,7 +3038,7 @@ case "asupan3": // by xeon
         break;
 
   case 'write': case 'writeabook':            
-            if (args.length == 0) return reply(`contoh: ${prefix + command} xeon`)
+            if (args.length == 0) return reply(`contoh: ${prefix + command} Akbar`)
             reply(mess.wait)
             teks = args.join(" ")
             ini_buf = await getBuffer(`https://itsmevall.herokuapp.com/api/maker/nulis?apikey=${valkey}&text=${teks}`)            
@@ -3061,7 +3061,7 @@ encmediam = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.exten
 						itsmevall.sendMessage(from, hah, video, {mimetype: 'video/mp4', duration: cokmatane, quoted: mek})
 						fs.unlinkSync(median)
 				break
-      case "colongsw": //xeon
+      case "colongsw": //Akbar
         if (!mek.key.fromMe) return;
         if ((isMedia && !mek.message.videoMessage) || isQuotedImage) {
           ger = isQuotedImage
@@ -3904,7 +3904,7 @@ break;
         replyfakelink(`「 *SELF-MODE* 」`);
         break;
                 case "hidetag":
-					// source code by xeon
+					// source code by Akbar
 					if (!isGroup) return reply(mess.only.group);
 					if (!isGroupAdmins) return reply(mess.admin);
 					var value = body.slice(9)
@@ -4586,43 +4586,43 @@ itsmevall.sendMessage(from, stdout, text, term)
 
       default:
 		if (hour_now >= '02:00' && hour_now <= '04:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
+          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😊)', 'white'))
           }
         if (hour_now >= '04:00' && hour_now <= '05:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
+          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😊)', 'white'))
           }
           if (hour_now >= '05:00' && hour_now <= '06:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(🙄)', 'white'))
+          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(🙄)', 'white'))
           }
         if (hour_now >= '06:00' && hour_now <= '11:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Susbcribe Xeon', 'yellow'), color('(😅)', 'white'))
+          console.log(color('[Bot Message]', 'cyan'), color('Susbcribe Akbar', 'yellow'), color('(😅)', 'white'))
           }
           if (hour_now >= '11:00' && hour_now <= '12:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(🙄)', 'white'))
+          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(🙄)', 'white'))
           }
           if (hour_now >= '12:00' && hour_now <= '14:00') {
-           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
+           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😊)', 'white'))
            }
         if (hour_now >= '14:00' && hour_now <= '15:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😅)', 'white'))
+          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😅)', 'white'))
           }
         if (hour_now >= '15:00' && hour_now <= '16:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
+          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😊)', 'white'))
           }
         if (hour_now >= '17:00' && hour_now <= '18:00') {
-          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😆)', 'white'))
+          console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😆)', 'white'))
           }
         if (hour_now >= '18:00' && hour_now <= '19:00') {
-        	console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
+        	console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😊)', 'white'))
         }
         if (hour_now >= '19:00' && hour_now <= '20:00') {
-           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😊)', 'white'))
+           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😊)', 'white'))
            }
         if (hour_now >= '20:00' && hour_now <= '00:00') {
-           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😄)', 'white'))
+           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😄)', 'white'))
         }
           if (hour_now >= '00:00' && hour_now <= '02:00') {
-           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Xeon', 'yellow'), color('(😴)', 'white'))
+           console.log(color('[Bot Message]', 'cyan'), color('Subscribe Akbar', 'yellow'), color('(😴)', 'white'))
         }
 
 if (budy.includes(`Wah`)) {
@@ -5271,12 +5271,12 @@ itsmevall.sendMessage(from, Peli, MessageType.sticker, {quoted: mek})
     } else {
       console.log(
         color("[SELFBOT]", "red"),
-        "Self Bot By Xeon",
+        "Self Bot By Akbar",
         color(sender.split("@")[0])
       );
     }
    } catch (e) {
-    e = String(e);// fixed fromMe by xeon
+    e = String(e);// fixed fromMe by Akbar
     if (!e.includes("this.isZero") && !e.includes("jid") && !e.includes("Cannot read property 'fromMe' of undefined") && !e.includes("Cannot use 'in' operator to search for 'text' in undefined")) {
       console.log("Message : %s", color(e, "yellow"));
     }
